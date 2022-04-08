@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Variables */
+:root{
+    --primary-color: #8FD445;
+}
+.logo{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+}
+
+#navbar ul{
+    display: flex;
+    margin-left: auto;
+    padding-top: 9px;
+   
+}
+
+#navbar ul li{
+    list-style: none;
+    
+}
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 33px;
+    font-weight: bold;
+}
+
+.hero{
+    background: url(/foof.png) no-repeat center/cover;
+    height: 455px;
+    width: 100%;
+    text-align: center;
+   
+    padding-top: 115px;
+    display: flex;
+}
+
+.card{
+    border-radius: 13px;
+    height: 338px;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 120px;
+    opacity: 0.8;
+}
+
+.card h1{
+    font-size: 2.8rem;
+    padding-top: 72px;
+    
+}
+
+.card p{
+    font-size: 1.2rem;
+    padding: 20px 0px;
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 1.2rem;
+    padding: 17px 27px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.btn:hover{
+    cursor: pointer;
+
+}
+
+.stats{
+    margin-top: 50px;
+    border: 2px solid blueviolet;
+}
+
+.stats h1{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.stat1 img{
+    height: 320px;
+    margin: 75px 75px;
+    box-shadow: 20px 20px 40px grey;
+}
+
+.growth{
+    margin-left: 660px;
+    border: 2px solid red;
+    display: inline-block;
+    
+}
