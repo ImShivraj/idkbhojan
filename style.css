@@ -97,6 +97,10 @@
     font-size: 2.8rem;
     text-align: center;
 }
+.stat1 {
+    display: flex;
+    align-items: center;
+  }
 
 .stat1 img{
     height: 320px;
@@ -105,7 +109,7 @@
 }
 
 .growth{
-    margin-left: 660px;
+   
     border: 2px solid red;
     display: inline-block;
     
